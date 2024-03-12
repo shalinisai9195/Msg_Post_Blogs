@@ -36,6 +36,7 @@ useEffect(()=>{
          
         })
    })
+   // eslint-disable-next-line
 },[id])
 
 const sendRequest = async()=>{

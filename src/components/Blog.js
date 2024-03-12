@@ -4,7 +4,7 @@ import EditIcon from '@mui/icons-material/Edit';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 import {useNavigate} from 'react-router-dom'
 import axios from 'axios';
-import moment from 'moment';
+//import moment from 'moment';
 import { BaseURL } from '../App';
 
 function Blog({title,description,imageURL,userName,isUser,id}) {
@@ -50,7 +50,7 @@ function Blog({title,description,imageURL,userName,isUser,id}) {
         }
        
         title={title}
-        subheader={moment().format('DD-MM-YYYY hh:mm')}
+      // subheader={moment(createdOn).fromNow()}
       />
 
       <CardMedia
